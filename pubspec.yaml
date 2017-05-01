@@ -1,0 +1,7 @@
+name: spectra
+version: 0.0.0
+dependencies:
+  angel_framework: ^1.0.0
+  html_builder: ^1.0.0
+  inflection: ^0.4.1
+  recase: ^1.0.0
