@@ -2,16 +2,12 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/blog/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/bin/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/blog/build" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/test/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/test/services/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/tool/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/web/images/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/blog/web/packages" />
       <excludeFolder url="file://$MODULE_DIR$/spectra/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/spectra/build" />
       <excludeFolder url="file://$MODULE_DIR$/spectra/packages" />

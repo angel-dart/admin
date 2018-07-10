@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Blog" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" singleton="true">
-    <option name="filePath" value="$PROJECT_DIR$/example/blog/bin/server.dart" />
-    <option name="workingDirectory" value="$PROJECT_DIR$/example/blog" />
-    <method />
-  </configuration>
-</component>

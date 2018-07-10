@@ -1,3 +1,0 @@
-# Production-only server configuration
-debug: false
-jwt_secret: "64D325053h488334681866s100525780"
