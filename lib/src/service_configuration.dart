@@ -5,9 +5,13 @@ import 'field.dart';
 
 class ServiceConfiguration {
   final String name;
+  final String icon;
   final Service service;
   final Map<String, Field> fields;
 
   const ServiceConfiguration(
-      {@required this.name, @required this.service, @required this.fields});
+      {@required this.name,
+      @required this.service,
+      @required this.fields,
+      this.icon});
 }

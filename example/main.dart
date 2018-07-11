@@ -30,18 +30,25 @@ main() async {
   var todoService = app.use(
       '/api/todos', new JsonFileService(fs.file('.todos_db.json'))) as Service;
 
-  var admin = new Admin(
+  var admin = new Admin<String>(
     fileSystem: fs,
     configuration: new AdminConfiguration(
       title: 'Todo List Admin',
       auth: auth,
+      getUsername: (u) => u,
       middleware: [
-        auth.authenticate('local'),
+        auth.authenticate(
+          'local',
+          new AngelAuthOptions(
+            callback: (req, res, jwt) => true,
+          ),
+        ),
         forceBasicAuth(),
       ],
       services: {
         'todos': new ServiceConfiguration(
           name: 'Todos',
+          icon: 'shopping_cart',
           service: todoService,
           fields: {
             'text': const TextField(placeholder: 'Todo text'),
